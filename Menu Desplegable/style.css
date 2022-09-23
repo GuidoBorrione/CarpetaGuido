@@ -1,0 +1,24 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+  }
+  
+  button {
+    text-decoration: none;
+    color: black;
+    width: 180px;
+    margin: 40px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+    border: black 5px solid;
+  }
+  
+  button:hover {
+    background-color: gray;
+  }
